@@ -9,9 +9,6 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "dependencies": {
-    "react": "^19.0.0"
-  },
   "devDependencies": {
     "@babel/preset-react": "^7.26.3",
     "@swc-node/jest": "^1.8.12",
@@ -21,11 +18,13 @@
     "@swc/helpers": "^0.5.15",
     "@swc/jest": "^0.2.37",
     "babel-loader": "^9.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "swc-loader": "^0.2.6",
     "webpack": "^5.97.1",
     "webpack-cli": "^6.0.1"
   },
   "peerDependencies": {
-    "react": ">=16.8.0"
+    "react": "^18.2.0"
   }
 }
