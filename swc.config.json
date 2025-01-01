@@ -8,9 +8,20 @@
             "react": {
                 "runtime": "automatic"
             }
-        }
+        },
+        "target": "es2015"
     },
     "module": {
-        "type": "commonjs"
+        "type": "es6",
+        "strict": true,
+        "strictMode": true,
+        "lazy": false,
+        "noInterop": false
+    },
+    "minify": {
+        "compress": {
+            "unused": true
+        },
+        "mangle": true
     }
 }
